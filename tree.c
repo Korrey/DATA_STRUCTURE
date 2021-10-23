@@ -27,13 +27,13 @@ int main()
 
 struct BTNode * CreateBTree()
 {
-    struct BTNode * pA = (struct BTNode *)malloc(sizeof(struct BTNode));
+    	struct BTNode * pA = (struct BTNode *)malloc(sizeof(struct BTNode));
 	struct BTNode * pB = (struct BTNode *)malloc(sizeof(struct BTNode));
 	struct BTNode * pC = (struct BTNode *)malloc(sizeof(struct BTNode));
 	struct BTNode * pD = (struct BTNode *)malloc(sizeof(struct BTNode));
 	struct BTNode * pE = (struct BTNode *)malloc(sizeof(struct BTNode));
 
-    pA->data = 'A';
+    	pA->data = 'A';
 	pB->data = 'B';
 	pC->data = 'C';
 	pD->data = 'D';
